@@ -11,7 +11,7 @@ Mathematica routines to compute the RSD power spectrum for biased tracers in Mod
 
 Run the the notebooks 0_All.nb in folders code/ and codeNW/. Then, run the file pk_EFT_IR.nb to obtain the IR-resummed EFT 1-loop power spectrum:
 
-pk[k_, mu_, b1_, b2_, bs2_, b3nl_, alpha0_, alpha2_, alpha4, ctilde , alphashot0_, alphashot2_, PshotP_]
+pk[k, mu, b1, b2, bs2, b3nl, alpha0, alpha2, alpha4, ctilde, alphashot0, alphashot2, PshotP]
 
 and compute its multipoles. 
 
