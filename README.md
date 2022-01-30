@@ -17,7 +17,7 @@ pk[k, mu, b1, b2, bs2, b3nl, alpha0, alpha2, alpha4, ctilde, alphashot0, alphash
 
 and compute its multipoles. 
 
-b1, b2, bs2 and b3nl are the bias parameters. alpha0, alpha2, alpha4 the leading order EFT params, and ctilde the Next-to-leading order EFT param. The total shot noise is given by PshotP (alphashot0 + alphashot2 k^2 mu^2). Hence, PshotP is intended to be fixed to the Poissonian noise 1/n, and alphashot0 a correction. Notice that the contribution given by ctilde and alphashot2 are degenerate, so you can safely set to zero one of them.  
+b1, b2, bs2 and b3nl are the bias parameters. alpha0, alpha2, alpha4 the leading order EFT params, and ctilde the next-to-leading-order EFT param. The total shot noise is given by PshotP (alphashot0 + alphashot2 k^2 mu^2). Hence, PshotP is intended to be fixed to the Poissonian noise 1/n, and alphashot0 a correction. Notice that the contribution given by ctilde and alphashot2 are degenerate, so you can safely set to zero one of them.  
 
 
 The input power spectra should be located in input/ where you can find a code PNW.nb to compute the non-wiggle power spectrum.
