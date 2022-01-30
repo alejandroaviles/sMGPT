@@ -5,7 +5,7 @@ Alejandro Aviles
 
 #
 
-Mathematica routines to compute the RSD power spectrum for biased tracers in Modified Gravity models
+Mathematica routines to compute the RSD power spectrum for biased tracers in Modified Gravity models using the SPT/EFT theory of https://arxiv.org/abs/2012.05077
 
 #
 
