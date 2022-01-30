@@ -7,6 +7,8 @@ Alejandro Aviles
 
 Mathematica routines to compute the RSD power spectrum for biased tracers in Modified Gravity models using the SPT/EFT theory of https://arxiv.org/abs/2012.05077
 
+The code runs the HS-f(R) model, but it can be easily modified for other models. 
+
 #
 
 Run the the notebooks 0_All.nb in folders code/ and codeNW/. Then, run the file pk_EFT_IR.nb to obtain the IR-resummed EFT 1-loop power spectrum:
