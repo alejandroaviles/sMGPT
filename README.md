@@ -9,9 +9,11 @@ Routines to compute the RSD power spectrum for biased tracers in Modified Gravit
 
 #
 
-Run the the files 0_All.nb in folders code/ and codeNW/
+Run the the notebooks 0_All.nb in folders code/ and codeNW/. Then, run the file multipoles.nb.
 
 The input power spectra should be located in input/ where you can find a code PNW.nb to compute the non-wiggle power spectrum.
+
+In the modules code/0_params.m and codeNW/0_params.m you should specify the route to the power spectra with and without wiggles. There you can specify the kind of perturbative kernels used. 
 
 Please contact me for any doubt. 
 
@@ -24,6 +26,8 @@ Alejandro Aviles, Georgios Valogiannis, Mario A.Rodriguez-Meza, Jorge L. Cervant
 It uses SPT kernels obtained from a mapping of the LPT kernels of:
 
 Alejandro Aviles & Jorge L. Cervantes-Cota, Lagrangian perturbation theory for modified gravity, Phys. Rev. D 96, 123526 (2017). https://arxiv.org/abs/2012.05077
+
+You can use and mofify this code as long as you cite at least the first paper above.
 
 
 
