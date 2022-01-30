@@ -1,0 +1,21 @@
+Sun 11 Jul 2021 09:14:12
+...
+PTkernels=1: Using full MG kernels
+...
+name: F4z05_FullMG
+fR0 = -0.0001
+OmegaM0 = 0.281
+h = 0.697
+output redshift = 0.5
+...
+Input pk: ../Baojiu_matterpower_pk.dat
+Input pk is LCDM: True
+Input pk redshift:  zin=0
+...
+Linear pk saved in file outputs/F4z05/FullMG/PSL_F4z05_FullMG.dat
+f(k) saved in file outputs/F4z05/FullMG/fk_F4z05_FullMG.dat
+D+(k) saved in file outputs/F4z05/FullMG/Dplus_F4z05_FullMG.dat
+...
+...
+Output files log-k spaced: kmin = 0.001,  kmax = 1.,  number of ks: 121
+Inner integration pmin = 0.00001,  pmax = 16.,  number of ps: 183
