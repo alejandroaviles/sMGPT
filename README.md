@@ -22,7 +22,7 @@ b1, b2, bs2 and b3nl are the bias parameters. alpha0, alpha2, alpha4 the leading
 
 The input power spectra should be located in input/ where you can find a code PNW.nb to compute the non-wiggle power spectrum.
 
-In the modules code/0_params.m and codeNW/0_params.m you should specify the route to the power spectra with and without wiggles. There you can specify the kind of perturbative kernels used. 
+In the modules code/0_params.m and codeNW/0_params.m you should specify the route to the power spectra with and without wiggles, and details about the cosmology (h,OmegaM,fR0,...). There you can specify the kind of perturbative kernels used. 
 
 
 
