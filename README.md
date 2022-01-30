@@ -27,7 +27,7 @@ It uses SPT kernels obtained from a mapping of the LPT kernels of:
 
 Alejandro Aviles & Jorge L. Cervantes-Cota, Lagrangian perturbation theory for modified gravity, Phys. Rev. D 96, 123526 (2017). https://arxiv.org/abs/2012.05077
 
-You can use and mofify this code as long as you cite at least the first paper above.
+You can use and modify this code as long as you cite at least the first paper above.
 
 
 
