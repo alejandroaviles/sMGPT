@@ -9,11 +9,20 @@ Mathematica routines to compute the RSD power spectrum for biased tracers in Mod
 
 #
 
-Run the the notebooks 0_All.nb in folders code/ and codeNW/. Then, run the file multipoles.nb.
+Run the the notebooks 0_All.nb in folders code/ and codeNW/. Then, run the file pk_EFT_IR.nb to obtain the IR-resummed EFT 1-loop power spectrum:
+
+pk[k_, mu_, b1_, b2_, bs2_, b3nl_, alpha0_, alpha2_, alpha4, ctilde , alphashot0_, alphashot2_, PshotP_]
+
+and compute its multipoles. 
+
+b1, b2, bs2 and b3nl are the bias parameters. alpha0, alpha2, alpha4 the leading order EFT params, and ctilde the Next-to-leading order EFT param. The total shot noise is given by Pshot = PshotP (alphashot0 + alphashot2 k^2 mu^2). Hence, PshotP is intended to be fixed to the Poissonian noise 1/n, and alphashot0 a correction.   
+
 
 The input power spectra should be located in input/ where you can find a code PNW.nb to compute the non-wiggle power spectrum.
 
 In the modules code/0_params.m and codeNW/0_params.m you should specify the route to the power spectra with and without wiggles. There you can specify the kind of perturbative kernels used. 
+
+
 
 Please contact me for any doubt. 
 
