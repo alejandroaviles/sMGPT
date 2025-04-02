@@ -36,7 +36,7 @@ Alejandro Aviles, Georgios Valogiannis, Mario A.Rodriguez-Meza, Jorge L. Cervant
 
 It uses SPT kernels obtained from a mapping of the LPT kernels of:
 
-Alejandro Aviles & Jorge L. Cervantes-Cota, Lagrangian perturbation theory for modified gravity, Phys. Rev. D 96, 123526 (2017). https://arxiv.org/abs/2012.05077
+Alejandro Aviles & Jorge L. Cervantes-Cota, Lagrangian perturbation theory for modified gravity, Phys. Rev. D 96, 123526 (2017). https://arxiv.org/abs/1705.10719
 
 You can use and modify this code as long as you cite at least the first paper above.
 
